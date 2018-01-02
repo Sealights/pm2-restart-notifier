@@ -1,0 +1,35 @@
+{
+  "name": "pm2-restart-notifier",
+  "version": "1.0.0",
+  "description": "Get restart notifications on various channels (slack, pagerduty, etc.)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pm2",
+    "slack",
+    "pagerduty",
+    "notifications"
+  ],
+  "author": {
+    "name": "Alon Weiss",
+    "email": "alonw@sealights.io",
+    "url": "www.sealights.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sealights/pm2-restart-notifier.git"
+  },
+  "homepage": "https://github.com/Sealights/pm2-restart-notifier",
+  "bugs": {
+    "url": "https://github.com/Sealights/pm2-restart-notifier/issues"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "pagerduty": "0.0.3",
+    "pm2": "*",
+    "pmx": "latest",
+    "read-last-lines": "^1.3.0"
+  }
+}
