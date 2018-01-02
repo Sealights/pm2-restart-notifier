@@ -20,7 +20,7 @@ e.g.
 * pagerdutyServiceKey - pager duty service key (required in order to turn on the pagerDuty notifier)
 * pagerdutyNotificationInterval - minimal interval between alerts for the same service (default to 60 seconds)
 
-## Pager Duty settings
+## Slack settings
 * slackToken - slack webhook token, in the form of xxxxxxxxx/xxxxxxxxx/xxxxxxxxxxxxxxxxxxxxxxxx (required in order to turn on the slack notifier)
 * slackNotificationInterval - minimal interval between alerts for the same service (default to 60 seconds)
 * slackEmoji - an emoji to show on slack alerts (default to :boom:)
