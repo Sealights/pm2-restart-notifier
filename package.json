@@ -1,6 +1,6 @@
 {
   "name": "pm2-restart-notifier",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Get restart notifications on various channels (slack, pagerduty, etc.)",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   "author": {
     "name": "Alon Weiss",
     "email": "alonw@sealights.io",
-    "url": "www.sealights.io"
+    "url": "https://www.sealights.io"
   },
   "repository": {
     "type": "git",
@@ -31,5 +31,10 @@
     "pm2": "*",
     "pmx": "latest",
     "read-last-lines": "^1.3.0"
+  },
+  "config":{
+    "errorLines": 50,
+    "logLines": 50,
+    "pollInterval": 30000
   }
 }
